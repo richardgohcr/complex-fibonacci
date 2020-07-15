@@ -20,3 +20,15 @@ after_success:
   - docker push richardgohcr/multi-nginx
   - docker push richardgohcr/multi-server
   - docker push richardgohcr/multi-worker
+
+  deploy:
+    provider: elasticbeanstalk
+    region: us-east-2
+    app: complex-fibonacci
+    env: ComplexFibonacci-env
+    bucket_name: elasticbeanstalk-us-east-2-696972055199
+    bucket_path: complex-fibonacci
+    on:
+      branch: master
+    access_key_id: $AWS_ACCESS_KEY
+    secret_access_key: $AWS_SECRET_KEY
