@@ -1,4 +1,4 @@
-# complex-fibonacci
+# Complex-Fibonacci
 
 Overly engineered web application to sum up fibonacci numbers, using Docker to containerise different services hosted on AWS.
 
@@ -7,13 +7,11 @@ Contents of this repository are adapted from an excellent [Udemy online course o
 ## App Overview
 ![App Overview](/diagrams/overview.png)
 
-##Activity Flow
-
-## App Architecture
-![App Activity Flow](/diagrams/activity.png)
-
-
+## Activity Flow
 ![App Architecture](/diagrams/architecture.png)
 
-## Production Pipeline
+## App Architecture
+![App Activity Flow](/diagrams/activity.png) 
+
+## Production Pixpeline
 ![Production Pipeline](/diagrams/pipeline.png)
