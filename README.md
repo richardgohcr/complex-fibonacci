@@ -4,4 +4,3 @@ Overly engineered web application to sum up fibonacci numbers, using Docker to c
 
 
 ![App Overview](/diagrams/overview.png)
-Format: ![App Overview](url)
