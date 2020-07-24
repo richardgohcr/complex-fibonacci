@@ -1,3 +1,7 @@
 # complex-fibonacci
 
-Overly engineered full stack web application to sum up fibonacci numbers. 
+Overly engineered web application to sum up fibonacci numbers, using Docker to containerise different services hosted on AWS.
+
+
+![App Overview](/diagrams/overview.png)
+Format: ![App Overview](url)
